@@ -1,0 +1,4 @@
+# NZ GORHAM PORTFOLIO (ONE PAGE)
+
+## NOTE FROM CREATOR
+What made me in
