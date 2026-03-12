@@ -1,0 +1,305 @@
+.TITLE{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.container1{
+    margin: 100px auto;
+    background-color:  rgb(255, 217, 0);
+}
+.NZG-IMAGE{
+    max-width: 400px;
+    float: left;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-right: 5%;
+}
+.h-DESCRIPTION{
+    font-size: 48px;
+}
+.p-DESCRIPTION{
+    font-size: 24px;
+    padding: 5px;
+}
+
+.container2{
+    margin: 100px auto;
+    background-color:  rgb(0, 0, 255);
+}
+.h-HIGH-SCHOOL{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.p-HIGH-SCHOOL{
+    font-size: 24px;
+    padding: 5px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.container3{
+    margin: 100px auto;
+    background-color:  #7A0019;
+}
+.h-COLLEGE{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.p-COLLEGE{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.h-COLLEGE-PORJECTS{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.p-COLLEGE-PORJECTS{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.h-COLLEGE-SVP{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.p-COLLEGE-SVP{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+
+.container4{
+    margin: 100px auto;
+    background-color:  #88cafc;
+    border: 3px solid black;
+}
+.h-PERSONAL{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: #030035;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #edcc6f;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.p-PERSONAL{
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+    color: #edcc6f;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #2b2c41;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.h-PERSONAL-PORJECTS{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #d2ebff;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #edcc6f;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.p-PERSONAL-PORJECTS{
+    font-size: 24px;
+    padding: 5px;
+    color: #edcc6f;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #2b2c41;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.h-PERSONAL-WE{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #d2ebff;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #edcc6f;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.p-PERSONAL-WE{
+    font-size: 24px;
+    padding: 5px;
+    color: #edcc6f;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #2b2c41;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.h-PERSONAL-FF{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #d2ebff;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #edcc6f;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+.p-PERSONAL-FF{
+    font-size: 24px;
+    padding: 5px;
+    color: #edcc6f;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #2b2c41;
+    text-shadow: 5px 5px 5px #2b2c41;
+}
+
+.container5{
+    margin: 100px auto;
+    text-align: center;
+    background-color:  white;
+    border: 3px solid black;
+    height: 275px;
+}
+.container5 a{
+    text-decoration: none;
+    color: inherit;
+}
+.h-SMCI{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+.p-SMCI{
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+.LinkedIn-button {
+    background-color: #0077b5;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none
+    transition: background-color 0.15s, color 0.15s;
+}
+.LinkedIn-button:hover {
+    background-color: white;
+    color: #0077b5;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+}
+.LinkedIn-button:active {
+    opacity: 0.7;
+}
+.Github-button {
+    background-color: black;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none
+    transition: background-color 0.15s, color 0.15s;
+}
+.Github-button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+}
+.Github-button:active {
+    opacity: 0.7;
+}
+.Gmail-button {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none
+    transition: opacity 0.15s, box-shadow 0.15s;
+}
+.Gmail-button:hover {
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+}
+.Gmail-button:active {
+    opacity: 0.7;
+}
+.Instagram-button {
+    background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    border-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none
+    transition: opacity 0.15s;
+}
+.Instagram-button:hover {
+    opacity: 0.5;
+}
+.Instagram-button:active {
+    opacity: 0.7;
+}
+.YouTube-button {
+    background-color: #FF0000;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none
+    transition: background-color 0.15s, color 0.15s;
+}
+.YouTube-button:hover {
+    background-color: white;
+    color: #FF0000;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+}
+.YouTube-button:active {
+    opacity: 0.7;
+}
