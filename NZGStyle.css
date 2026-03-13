@@ -14,6 +14,7 @@
     padding: 1em;
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
 }
 .NZG-IMAGE{
     max-width: 400px;
@@ -42,6 +43,7 @@
     padding: 1em;
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
 }
 .h-HIGH-SCHOOL{
     font-size: 48px;
@@ -68,9 +70,12 @@
     margin: 100px auto;
     background-color:  #7A0019;
     border: 3px solid black;
+    display: flex;
+    flex-direction: column;
     padding: 1em;
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
 }
 .h-COLLEGE{
     font-size: 48px;
@@ -156,6 +161,19 @@
     color: #FFCC33;
     text-shadow: 5px 5px 5px black;
 }
+.h-COLLEGE-A{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.p-COLLEGE-A{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
 
 .container4{
     margin: 100px auto;
@@ -166,6 +184,7 @@
     padding: 1em;
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
 }
 .h-PERSONAL{
     font-size: 48px;
@@ -239,25 +258,24 @@
 }
 .movie-section {
     display: flex;
+    align-items: flex-start;
     gap: 40px;
-    margin-bottom: 200px;
-    flex-direction: column;
-    padding: 1em;
-    width: fit-content;
-    height: fit-content;
+    margin-bottom: 100px;
+    padding: 20px 40px;
 }
 .POSTER{
-    max-width: 400px;
-    margin-left: 20px;
-    float: left;
-    border-radius: 20px;
+    width: 400px;
+    border-radius: 5px;
     border: 3px solid black;
-    margin-right: 5%;
+    flex-shrink: 0;
+}
+.movie-text {
+    flex: 1;
 }
 .h-PERSONAL-AF-h{
     font-size: 32px;
-    padding: 5px;
-    text-align: center;
+    margin: 0 0 20px 0;
+    text-align: left;
     color: #d2ebff;
     -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: #edcc6f;
@@ -265,9 +283,10 @@
 }
 .p-PERSONAL-AF-d{
     font-size: 24px;
-    padding: 5px;
+    margin: 0;
     color: #edcc6f;
-    text-align: right;
+    text-align: left;
+    line-height: 1.5;
     -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: #2b2c41;
     text-shadow: 5px 5px 5px #2b2c41;
@@ -278,10 +297,12 @@
     text-align: center;
     background-color:  white;
     border: 3px solid black;
+    display: flex;
+    flex-direction: column;
     padding: 1em;
-    width: fit-content;
-    height: fit-content;
+    overflow: hidden;
 }
+
 .container5 a{
     text-decoration: none;
     color: inherit;
